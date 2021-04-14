@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+security:
+  oauth2:
+    client:
+      client-id: cc18c9d9-54f5-42b5-8c75-f023c1f16118
+      client-secret: secret
+      scope: system
+      access-token-uri: http://localhost:8080/oauth/token
+    resource:
+      token-info-uri: http://localhost:8080/oauth/check_token
